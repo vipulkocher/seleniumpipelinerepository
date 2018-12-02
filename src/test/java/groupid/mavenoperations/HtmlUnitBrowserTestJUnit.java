@@ -18,7 +18,7 @@ public class HtmlUnitBrowserTestJUnit {
 	public void setUp() throws Exception {
 	driver = new HtmlUnitDriver();
 	}
-/*
+
 	@Test
 	public void test1() {
 		driver.get("http://localhost:9090");
@@ -27,7 +27,7 @@ public class HtmlUnitBrowserTestJUnit {
 		assertEquals(expectedTitle, actualTitle);
         System.out.println(actualTitle);
 	}
-*/
+
 	@Test
 	public void test2() {
 		driver.get("http://newtours.demoaut.com/");
